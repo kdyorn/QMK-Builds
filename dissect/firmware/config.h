@@ -1,0 +1,17 @@
+#pragma once
+
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 9
+
+/* Left half */
+#define MATRIX_ROW_PINS { GP16, GP21, GP23, GP20, GP22 }
+#define MATRIX_COL_PINS { GP9, GP8, GP7, GP6, GP5, GP4, GP3, NO_PIN, NO_PIN }
+
+/* Right half */
+#define MATRIX_ROW_PINS_RIGHT { GP16, GP21, GP23, GP20, GP22 }
+#define MATRIX_COL_PINS_RIGHT { GP12, GP9, GP8, GP7, GP6, GP5, GP4, GP3, GP2 }
+
+#define DIODE_DIRECTION COL2ROW
+#define DEBOUNCE 5
+
+#define MASTER_LEFT
